@@ -7,3 +7,4 @@ obj.GetProductDetails();
 obj.GetEachProductCost();
 obj.DispalyProduct();
 obj.TotalPrice();
+obj.display();

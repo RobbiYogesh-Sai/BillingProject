@@ -8,7 +8,7 @@ namespace BillingProject
 {
     public class DemoBillingProject
     {
-        int p;
+        int p,count=0;
         String[] products=new String[10];
         int[] units=new int[10];
         int[] totalUnits=new int[10];
@@ -16,6 +16,7 @@ namespace BillingProject
         {
             Console.Write("Enter how many products taken: ");
             p=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(count);
         }
         public void GetProductDetails()
         {
@@ -51,5 +52,11 @@ namespace BillingProject
                 break;
             }
         }
+        public void display()
+        {
+            Console.WriteLine("This new created function");
+        }
     }
 }
+//Push The Code
+
